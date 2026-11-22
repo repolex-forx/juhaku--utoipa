@@ -1,0 +1,47 @@
+[2026-11-22T13:10:51Z] === ENRICH ITERATION 1 START | repo=juhaku/utoipa sha=77526812 ===
+[2026-11-22T13:10:51Z] [iter=1] PHASE START: enrich repo=juhaku/utoipa sha=77526812 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/77526812-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/77526812c6afd49acfb2be986e922affb76cc227.nq.gz
+[2026-11-22T13:10:51Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T13:11:08Z] [iter=1] AST store loaded triples=1634985 load_secs=17 mem_mb=891 MB
+[2026-11-22T13:11:08Z] [iter=1] Step 2: Finding LSP targets mem_mb=891 MB
+[2026-11-22T13:11:11Z] [iter=1] LSP targets found call_sites=11457 imports=425 extends=0 implements=233 secs=3
+[2026-11-22T13:11:13Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=891 MB
+[2026-11-22T13:11:19Z] [iter=1] Position index built positions=119748 nodes_with_types=139739 secs=6 mem_mb=891 MB
+[2026-11-22T13:11:19Z] [iter=1] Step 3: Starting LSP resolution mem_mb=891 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T13:11:19Z] [iter=1] Resolving target type target_type=call_site count=11457
+[2026-11-22T13:12:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=0 resolved=0 errors=0 current=utoipa-gen/tests/request_body_derive_test.rs
+[2026-11-22T13:12:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=1 resolved=118 errors=0 current=utoipa-gen/tests/schema_derive_test.rs
+[2026-11-22T13:14:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.6 files_done=2 resolved=497 errors=0 current=utoipa-gen/src/component/schema.rs
+[2026-11-22T13:15:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.3 files_done=3 resolved=759 errors=0 current=utoipa-gen/src/component.rs
+[2026-11-22T13:15:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.1 files_done=4 resolved=1154 errors=0 current=examples/todo-warp-rapidoc/src/main.rs
+[2026-11-22T13:16:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=6 resolved=1405 errors=0 current=utoipa-gen/src/lib.rs
+[2026-11-22T13:17:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.7 files_done=8 resolved=1723 errors=0 current=utoipa/src/lib.rs
+[2026-11-22T13:18:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=9 resolved=1915 errors=0 current=utoipa-gen/src/path.rs
+[2026-11-22T13:18:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=13 resolved=2431 errors=0 current=utoipa-gen/src/ext/rocket.rs
+[2026-11-22T13:19:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.7 files_done=18 resolved=2687 errors=0 current=utoipa-gen/src/path/response.rs
+[2026-11-22T13:20:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.3 files_done=22 resolved=3086 errors=0 current=utoipa-swagger-ui/src/lib.rs
+[2026-11-22T13:24:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=24 resolved=4165 errors=0 current=utoipa-gen/src/component/schema/enums.rs
+[2026-11-22T13:25:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=25 resolved=4447 errors=0 current=utoipa-gen/tests/path_derive_actix.rs
+[2026-11-22T13:25:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.0 files_done=28 resolved=4617 errors=0 current=utoipa-gen/src/path/request_body.rs
+[2026-11-22T13:26:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.7 files_done=30 resolved=4925 errors=0 current=utoipa-gen/tests/path_derive_axum_test.rs
+[2026-11-22T13:27:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.2 files_done=32 resolved=5140 errors=0 current=examples/warp-multiple-api-docs/src/main.rs
+[2026-11-22T13:28:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.5 files_done=36 resolved=5435 errors=0 current=utoipa-gen/src/openapi/info.rs
+[2026-11-22T13:29:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.1 files_done=43 resolved=5902 errors=0 current=utoipa-gen/src/component/features.rs
+[2026-11-22T13:30:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.2 files_done=44 resolved=6108 errors=0 current=utoipa-gen/tests/path_derive_auto_into_responses_actix.rs
+[2026-11-22T13:30:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.8 files_done=46 resolved=6223 errors=0 current=utoipa-gen/src/path/response/header.rs
+[2026-11-22T13:31:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.4 files_done=54 resolved=6600 errors=0 current=utoipa-gen/src/path/parameter.rs
+[2026-11-22T13:31:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.9 files_done=63 resolved=6987 errors=0 current=utoipa-gen/tests/path_parameter_derive_test.rs
+[2026-11-22T13:32:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.4 files_done=75 resolved=7293 errors=0 current=utoipa/src/openapi/info.rs
+[2026-11-22T13:32:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.9 files_done=82 resolved=7498 errors=0 current=examples/axum-utoipa-nesting-vendored/src/main.rs
+[2026-11-22T13:33:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.5 files_done=101 resolved=7686 errors=0 current=utoipa-redoc/src/rocket.rs
+[2026-11-22T13:33:27Z] [iter=1] Target type resolved target_type=call_site resolved=7696 errors=0 secs=1327 mem_mb=891 MB
+[2026-11-22T13:33:27Z] [iter=1] Resolving target type target_type=import_statement count=425
+[2026-11-22T13:34:02Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=23.2 files_done=1 resolved=2 errors=0 current=utoipa-gen/src/security_requirement.rs
+[2026-11-22T13:34:34Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=23.7 files_done=33 resolved=210 errors=0 current=utoipa-gen/src/path/response/link.rs
+[2026-11-22T13:34:58Z] [iter=1] Target type resolved target_type=import_statement resolved=350 errors=0 secs=91 mem_mb=891 MB
+[2026-11-22T13:34:58Z] [iter=1] Resolving target type target_type=implements_clause count=233
+[2026-11-22T13:35:15Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=24.4 files_done=0 resolved=0 errors=0 current=utoipa-gen/src/component/features/attributes.rs
+[2026-11-22T13:35:47Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=24.9 files_done=1 resolved=1 errors=0 current=utoipa-gen/src/component/schema/enums.rs
+[2026-11-22T13:35:56Z] [iter=1] Target type resolved target_type=implements_clause resolved=221 errors=0 secs=58 mem_mb=891 MB
+[2026-11-22T13:56:46Z] [iter=1] Step 5: Writing final enrichment file triples=101112
+[2026-11-22T13:56:47Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/77526812c6afd49acfb2be986e922affb76cc227.nq.gz size_kb=2238
+[2026-11-22T13:56:47Z] [iter=1] PHASE END: enrich elapsed_s=2756 elapsed_min=45.9 total_triples=101112
