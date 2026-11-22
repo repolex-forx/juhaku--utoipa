@@ -1,0 +1,11 @@
+{
+  "org": "juhaku",
+  "repo": "utoipa",
+  "versions": [
+    {
+      "commit": "77526812c6afd49acfb2be986e922affb76cc227",
+      "tag": "utoipa-swagger-ui-vendored-0.1.2",
+      "parsed_at": "2026-11-22T13:58:42.941720+00:00"
+    }
+  ]
+}
